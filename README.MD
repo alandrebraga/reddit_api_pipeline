@@ -30,3 +30,8 @@ rode
 ```
 docker compose up - d
 ```
+
+
+A arquitetura do script é simples como parece e como deve ser
+
+![alt text](images/image.png)
