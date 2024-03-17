@@ -1,0 +1,14 @@
+[2024-03-17T02:26:00.227+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: reddit_to_s3.learnprogramming manual__2024-03-17T02:25:48.622515+00:00 [queued]>
+[2024-03-17T02:26:00.233+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: reddit_to_s3.learnprogramming manual__2024-03-17T02:25:48.622515+00:00 [queued]>
+[2024-03-17T02:26:00.233+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-17T02:26:00.241+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): learnprogramming> on 2024-03-17 02:25:48.622515+00:00
+[2024-03-17T02:26:00.247+0000] {standard_task_runner.py:60} INFO - Started process 244 to run task
+[2024-03-17T02:26:00.252+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'reddit_to_s3', 'learnprogramming', 'manual__2024-03-17T02:25:48.622515+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/ingest.py', '--cfg-path', '/tmp/tmpjcojeef_']
+[2024-03-17T02:26:00.253+0000] {standard_task_runner.py:88} INFO - Job 62: Subtask learnprogramming
+[2024-03-17T02:26:00.289+0000] {task_command.py:423} INFO - Running <TaskInstance: reddit_to_s3.learnprogramming manual__2024-03-17T02:25:48.622515+00:00 [running]> on host ee31986955d4
+[2024-03-17T02:26:00.349+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='reddit_to_s3' AIRFLOW_CTX_TASK_ID='learnprogramming' AIRFLOW_CTX_EXECUTION_DATE='2024-03-17T02:25:48.622515+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-17T02:25:48.622515+00:00'
+[2024-03-17T02:26:09.074+0000] {reddit_api.py:65} INFO - Uploaded learnprogramming_2024-03-17.csv to s3
+[2024-03-17T02:26:09.075+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-17T02:26:09.082+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=reddit_to_s3, task_id=learnprogramming, execution_date=20240317T022548, start_date=20240317T022600, end_date=20240317T022609
+[2024-03-17T02:26:09.114+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-17T02:26:09.131+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

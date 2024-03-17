@@ -1,0 +1,13 @@
+boto3
+botocore
+pandas
+praw
+python-dotenv
+apache-airflow-providers-amazon
+apache-airflow-providers-common-io
+apache-airflow-providers-common-sql
+apache-airflow-providers-ftp
+apache-airflow-providers-http
+apache-airflow-providers-imap
+apache-airflow-providers-smtp
+apache-airflow-providers-sqlite
