@@ -6192,3 +6192,27 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'cscareerquestions' has already
 [2024-03-17T02:41:17.373+0000] {processor.py:161} INFO - Started process (PID=3108) to work on /opt/airflow/dags/ingest.py
 [2024-03-17T02:41:17.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
 [2024-03-17T02:41:17.376+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:41:17.376+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2024-03-17T02:41:26.458+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:41:26.458+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2024-03-17T02:41:29.265+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:41:29.265+0000] {reddit_api.py:51} INFO - brdev_2024-03-17.csv already exists in S3
+[2024-03-17T02:41:29.269+0000] {processor.py:840} INFO - DAG(s) 'reddit_to_s3' retrieved from /opt/airflow/dags/ingest.py
+[2024-03-17T02:41:29.281+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:41:29.281+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-17T02:41:29.295+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:41:29.295+0000] {dag.py:3834} INFO - Setting next_dagrun for reddit_to_s3 to 2024-03-17 00:00:00+00:00, run_after=2024-03-18 00:00:00+00:00
+[2024-03-17T02:41:29.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 11.938 seconds
+[2024-03-17T02:41:59.431+0000] {processor.py:161} INFO - Started process (PID=3168) to work on /opt/airflow/dags/ingest.py
+[2024-03-17T02:41:59.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2024-03-17T02:41:59.433+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:41:59.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2024-03-17T02:42:07.356+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:07.355+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2024-03-17T02:42:10.231+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:10.231+0000] {reddit_api.py:51} INFO - brdev_2024-03-17.csv already exists in S3
+[2024-03-17T02:42:10.235+0000] {processor.py:840} INFO - DAG(s) 'reddit_to_s3' retrieved from /opt/airflow/dags/ingest.py
+[2024-03-17T02:42:10.250+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:10.249+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-17T02:42:10.265+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:10.265+0000] {dag.py:3834} INFO - Setting next_dagrun for reddit_to_s3 to 2024-03-17 00:00:00+00:00, run_after=2024-03-18 00:00:00+00:00
+[2024-03-17T02:42:10.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 10.849 seconds
+[2024-03-17T02:42:41.093+0000] {processor.py:161} INFO - Started process (PID=3266) to work on /opt/airflow/dags/ingest.py
+[2024-03-17T02:42:41.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingest.py for tasks to queue
+[2024-03-17T02:42:41.095+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:41.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingest.py
+[2024-03-17T02:42:47.706+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:47.706+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2024-03-17T02:42:50.471+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:50.470+0000] {reddit_api.py:51} INFO - brdev_2024-03-17.csv already exists in S3
+[2024-03-17T02:42:50.474+0000] {processor.py:840} INFO - DAG(s) 'reddit_to_s3' retrieved from /opt/airflow/dags/ingest.py
+[2024-03-17T02:42:50.487+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:50.487+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-17T02:42:50.501+0000] {logging_mixin.py:188} INFO - [2024-03-17T02:42:50.501+0000] {dag.py:3834} INFO - Setting next_dagrun for reddit_to_s3 to 2024-03-17 00:00:00+00:00, run_after=2024-03-18 00:00:00+00:00
+[2024-03-17T02:42:50.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingest.py took 9.422 seconds
